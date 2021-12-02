@@ -1,6 +1,8 @@
 # pull official base image
 FROM python:3.8
 
+LABEL DZMITRY RATSKEVICH d.ratskevich@itransition.com
+
 # set work directory
 WORKDIR /usr/src/app
 
