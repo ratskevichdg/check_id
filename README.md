@@ -27,6 +27,9 @@ DATABASE_URL=postgresql://<POSTGRES_USER>:<POSTGRES_PASSWORD>@db:5432/<DATABASE_
 SQL_HOST=db
 SQL_PORT=5432
 DATABASE=postgres
+POSTGRES_USER=<POSTGRES_USER>
+POSTGRES_PASSWORD=<POSTGRES_PASSWORD>
+POSTGRES_DB=<DATABASE_NAME>
 ```
 
 build an environment
@@ -43,4 +46,4 @@ add a dummy data to database
 docker-compose exec web python manage.py seed_db
 ```
 check if it works by the link:
- [http://localhost:5050/][PlDb]
+http://localhost:5050/
